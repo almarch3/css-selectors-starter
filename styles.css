@@ -67,7 +67,7 @@
     add the universal CSS selector to the styles below
 */
 /* ----- */
-header{
+*{
     font-family: var(--fonts);
     line-height: 1.3;
     color: var(--dk-gray);
@@ -111,7 +111,7 @@ header, footer{
     select the header only, by tag name
 */
 /* ----- */
-{
+header{
     margin: 0 auto 2rem auto;
 }
 
@@ -124,7 +124,7 @@ header, footer{
     select the h1 tag by tag name
 */
 /* ----- */
-{
+header h1{
     font-size: 2em;
     margin: 0;
     text-align: center;
