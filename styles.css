@@ -381,7 +381,7 @@ span {
     select the anchor tags in the navigation on hover using the tag names, pseudo-class, and child/descendant selectors
 */
 /* ----- */
-#nav nav > ul > li > a:hover {
+#nav nav ul li a:hover {
     background-color: var(--white);
     color: var(--green);
     box-shadow: var(--box-shadow-sm);
