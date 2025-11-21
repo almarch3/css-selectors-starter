@@ -831,7 +831,7 @@ table tfoot {
     select the second div in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-#borders > div div {
+#borders > div > div {
     width: 250px;
     height: 250px;
     border: 6px dotted var(--dv-orange);
