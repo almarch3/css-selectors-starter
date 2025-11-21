@@ -927,7 +927,7 @@ table tfoot {
     select the image in the pseudo-elements section using the ID, child/descendant, and tag name selectors
 */
 /* ----- */
-#pseudo-els div img {
+#pseudo-els img {
     width: 200px;
     height: 200px;
     margin: 0 auto;
