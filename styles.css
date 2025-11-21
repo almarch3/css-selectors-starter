@@ -437,19 +437,11 @@ input:focus {
     outline: 4px solid var(--orange);
     outline-offset: 2px;
     border: none;
-}
-
-/* ----- */
-/* 
-    TO DO:
-    select all of the inputs on focus (by tag name/pseudo-class) on the page
-*/
-/* ----- */
-input:focus {
     outline-color: var(--dv-dk-blue);
 }
 
 /* ----- */
+
 /* 
     TO DO:
     select the labels in the form using the tag name/element selector
@@ -759,7 +751,7 @@ caption {
     select the table header cells in the table styles section using the element/tag name, descendant, and ID selectors
 */
 /* ----- */
-table > thead { 
+#table > thead { 
     background-color: var(--blue);
     color: var(--white);
 }
@@ -770,7 +762,7 @@ table > thead {
     select the odd table rows in the table body of the table styles section using the element/tag name and the pseudo-class selectors
 */
 /* ----- */
-table tbody tr:nth-child(odd) { 
+table > tbody > tr:nth-child(odd) { 
     background-color: var(--dv-orange);
 }
 
@@ -839,7 +831,7 @@ table tfoot {
     select the second div in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
-#borders div:nth-child(2) {
+#borders > div:nth-child(2) {
     width: 250px;
     height: 250px;
     border: 6px dotted var(--dv-orange);
@@ -851,7 +843,7 @@ table tfoot {
     select the third div in the border styling section using the ID, descendant, and class name selectors
 */
 /* ----- */
-#borders .dashed {
+#borders .dashed > div > div:last-child {
     width: 200px;
     height: 200px;
     border: 6px dashed var(--dv-yellow);
