@@ -843,7 +843,7 @@ table tfoot {
     select the third div in the border styling section using the ID, descendant, and class name selectors
 */
 /* ----- */
-#borders .dashed > div {
+#borders .dashed div:first-child {
     width: 200px;
     height: 200px;
     border: 6px dashed var(--dv-yellow);
