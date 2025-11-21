@@ -336,7 +336,7 @@ span {
     select the unordered list in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-#nav > ul {
+#nav nav > ul {
     display: block;
     list-style-type: none;
     padding: 0;
@@ -349,7 +349,7 @@ span {
     select the list items in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-#nav > ul > li {
+#nav nav > ul > li {
     display: block;
     width: 100%;
 }
@@ -360,7 +360,7 @@ span {
     select the anchor tags in the navigation using the tag names and child/descendant selectors
 */
 /* ----- */
-#nav > ul > li > a {
+#nav nav > ul > li > a {
     display: block;
     width: 90%;
     margin: 16px auto;
