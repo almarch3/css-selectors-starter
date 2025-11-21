@@ -843,7 +843,7 @@ table tfoot {
     select the third div in the border styling section using the ID, descendant, and class name selectors
 */
 /* ----- */
-#borders .dashed > div > div:last-child {
+#borders .dashed > div {
     width: 200px;
     height: 200px;
     border: 6px dashed var(--dv-yellow);
@@ -855,7 +855,7 @@ table tfoot {
     select the fourth div in the pseudo-class styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-#borders .dashed > div {
+#borders .dashed > div > div {
     width: 150px;
     height: 150px;
     border: 6px double var(--dv-mint);
@@ -867,7 +867,7 @@ table tfoot {
     select the last div in the more styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-#borders .dashed > div:last-child {
+#borders .dashed > div > div:last-child {
     width: 100px;
     height: 100px;
     border: 6px inset var(--dv-lt-blue);
