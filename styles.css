@@ -336,7 +336,7 @@ span {
     select the unordered list in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-nav > ul {
+#nav nav > ul {
     display: block;
     list-style-type: none;
     padding: 0;
@@ -349,7 +349,7 @@ nav > ul {
     select the list items in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-nav > li {
+#nav nav ul li {
     display: block;
     width: 100%;
 }
@@ -360,7 +360,7 @@ nav > li {
     select the anchor tags in the navigation using the tag names and child/descendant selectors
 */
 /* ----- */
-nav > a {
+#nav nav ul li a {
     display: block;
     width: 90%;
     margin: 16px auto;
@@ -381,7 +381,7 @@ nav > a {
     select the anchor tags in the navigation on hover using the tag names, pseudo-class, and child/descendant selectors
 */
 /* ----- */
-nav > a:hover {
+#nav nav ul li a:hover {
     background-color: var(--white);
     color: var(--green);
     box-shadow: var(--box-shadow-sm);
@@ -433,7 +433,7 @@ input, select {
     select all of the inputs on focus (by tag name/pseudo-class) on the page
 */
 /* ----- */
-input:focus {
+#form input:focus {
     outline: 4px solid var(--orange);
     outline-offset: 2px;
     border: none;
@@ -447,7 +447,7 @@ input:focus {
     select the labels in the form using the tag name/element selector
 */
 /* ----- */
-form label {
+#form label {
     font-size: 1.25rem;
     margin-top: 16px;
 }
@@ -751,7 +751,7 @@ caption {
     select the table header cells in the table styles section using the element/tag name, descendant, and ID selectors
 */
 /* ----- */
-#table > thead { 
+#table table thead { 
     background-color: var(--blue);
     color: var(--white);
 }
@@ -927,7 +927,7 @@ table tfoot {
     select the image in the pseudo-elements section using the ID, child/descendant, and tag name selectors
 */
 /* ----- */
-#pseudo-els > img {
+#pseudo-els div img {
     width: 200px;
     height: 200px;
     margin: 0 auto;
